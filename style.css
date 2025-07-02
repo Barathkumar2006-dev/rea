@@ -543,12 +543,14 @@ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
         height:250px;
      }    
 
-    .service_title h3{
-    text-align:center;
-    margin-left:0;
-    }
-
 }
+
+@media only screen and (max-height: 480px) and (orientation: landscape) {
+    .service_title h3 {
+        margin-top: 25%;
+    }
+}
+
 
 
 
