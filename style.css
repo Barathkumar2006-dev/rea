@@ -5,12 +5,6 @@
 /* styling the main index star */
 
 html{scroll-behavior:smooth;}
-body {
-  overscroll-behavior-y: contain;
-  -webkit-overflow-scrolling: touch;
-  display:none;
-}
-
 
 *{
     margin:0;
