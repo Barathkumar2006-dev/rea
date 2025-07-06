@@ -7,6 +7,25 @@ window.addEventListener("beforeunload", () => {
 });
 
 
+// Close sidebar after clicking nav link and prevent jump
+document.querySelectorAll('#sidebar a').forEach(link => {
+  link.addEventListener('click', function(e) {
+    const targetId = this.getAttribute('href');
+    if (targetId.startsWith('#')) {
+      e.preventDefault();
+      document.querySelector(targetId).scrollIntoView({ behavior: 'smooth' });
+      hidebar(); // your custom function to close sidebar
+    }
+  });
+});
+
+
+function hidebar() {
+  document.getElementById('sidebar').style.display = 'none';
+  // Optional: no scrollTo(0,0) here unless you want to force top
+}
+
+
 
 function showbar(){
   const sidebar = document.querySelector('.sidebar')
