@@ -65,6 +65,7 @@ ul li a{
 .transform{
     margin-top:10px;
     cursor:pointer;
+    margin-left:15px;
 }
 
 .nav_section ul li a:hover{
