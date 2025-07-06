@@ -7,6 +7,25 @@ window.addEventListener("beforeunload", () => {
 });
 
 
+document.querySelectorAll('#sidebar a').forEach(link => {
+  link.addEventListener('click', function(e) {
+    const targetId = this.getAttribute('href');
+
+    if (targetId === "#") {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else if (targetId.startsWith("#")) {
+      e.preventDefault();
+      const targetElem = document.querySelector(targetId);
+      if (targetElem) {
+        targetElem.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    hidebar(); // close the sidebar after navigation
+  });
+});
+
 
 
 // Close sidebar after clicking nav link and prevent jump
