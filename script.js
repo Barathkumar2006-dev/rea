@@ -1,4 +1,7 @@
-
+// Prevent scroll restoration when navigating away
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
 
 
 
