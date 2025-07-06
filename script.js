@@ -6,12 +6,7 @@ window.addEventListener("beforeunload", () => {
   window.scrollTo(0, 0);
 });
 
-document.querySelectorAll('.menu_bar').forEach(icon => {
-  icon.addEventListener('click', function(e) {
-    e.preventDefault(); // prevents scroll to top
-    showbar(); // your menu toggle logic
-  });
-});
+
 
 
 // Close sidebar after clicking nav link and prevent jump
