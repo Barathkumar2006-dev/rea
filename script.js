@@ -20,13 +20,6 @@ document.querySelectorAll('#sidebar a').forEach(link => {
 });
 
 
-function hidebar() {
-  document.getElementById('sidebar').style.display = 'none';
-  // Optional: no scrollTo(0,0) here unless you want to force top
-}
-
-
-
 function showbar(){
   const sidebar = document.querySelector('.sidebar')
   sidebar.style.display = 'flex'
