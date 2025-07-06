@@ -14,7 +14,6 @@ document.querySelectorAll('.menu_bar').forEach(icon => {
 });
 
 
-
 // Close sidebar after clicking nav link and prevent jump
 document.querySelectorAll('#sidebar a').forEach(link => {
   link.addEventListener('click', function(e) {
