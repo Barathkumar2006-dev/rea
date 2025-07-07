@@ -1,15 +1,10 @@
+/// nav bar css styling 
 
+const toggle = document.querySelector('.toggle')
 
+const menu_bar = document.querySelector('.nav_menu')
 
-function showbar(){
-  const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = 'flex'
-  document.querySelector(".main_bar").style.zIndex = "1";
-
-}
-
-function hidebar(){
-   const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = 'none'
-   document.getElementById(".main_bar").style.zIndex = "1000";
-}
+toggle.addEventListener('click',()=>{
+  toggle.classList.toggle('active')
+  menu_bar.classList.toggle('active')
+})
