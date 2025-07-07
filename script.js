@@ -73,7 +73,6 @@ function doNextRotation() {
 ScrollTrigger.create({
   trigger: "#img3",
   start: "bottom bottom",
-  end: "+=2000", 
   toggleActions: "play none none none",
   pinSpacing: true,
   scrub: false,
@@ -83,11 +82,11 @@ ScrollTrigger.create({
     rotateTo(0);
     doNextRotation();
   },
+  
   onLeave: () => {
     document.body.classList.remove("noscroll");
   }
 });
-/// nav bar css styling 
 
 const toggle = document.querySelector('.toggle')
 
