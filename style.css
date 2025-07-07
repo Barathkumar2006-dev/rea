@@ -57,15 +57,15 @@ ul li a{
     display:flex;
 }
 
-.nav_bar.active .bar:nth-child(2){
+.toggle.active .bar:nth-child(2){
     opacity:0;
 }
 
-.nav_bar.active .bar:nth-child(1){
+.toggle.active .bar:nth-child(1){
     transform:translateY(8px) rotate(45deg);
 }
 
-.nav_bar.active .bar:nth-child(3){
+.toggle.active .bar:nth-child(3){
     transform:translateY(-8px) rotate(-45deg);
 }
 
