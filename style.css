@@ -59,7 +59,7 @@ ul li a{
 
 .toggle.active .bar:nth-child(2){
     opacity:0;
-}
+} 
 
 .toggle.active .bar:nth-child(1){
     transform:translateY(8px) rotate(45deg);
@@ -116,7 +116,7 @@ ul li a{
 .bar{
     display:block;
     width:25px;
-    height:1.5px;
+    height:1.4px;
     margin:5px auto;
     background:#000000;
     transition:all 0.3s ease-in-out;
@@ -136,6 +136,7 @@ ul li a{
         align-items:flex-start;
         gap:1.7rem;
         position:absolute;
+        display:none;
         height:100vh;
         top:0;
         right:0;
