@@ -104,17 +104,3 @@ ScrollTrigger.create({
 
 
 
-
-const toggle = document.querySelector('.toggle')
-
-const menu_bar = document.querySelector('.nav_menu')
-
-toggle.addEventListener('click',()=>{
-  toggle.classList.toggle('active')
-  menu_bar.classList.toggle('active')
-
-nav_bar.addEventListener('click',()=>{
-  nav_bar.classList.toggle('active')
-  nav_menu.classList.toggle('active')
-})
-
