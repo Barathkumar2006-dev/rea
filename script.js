@@ -21,7 +21,4 @@ document.querySelectorAll('.nav_menu a').forEach(link => {
 });
 
 
-window.addEventListener('beforeunload', () => {
-  // Temporarily scroll to top to neutralize anchor memory
-  window.scrollTo(0, 0);
-});
+
