@@ -1,12 +1,8 @@
-function showbar(){
-  const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = 'flex'
-  document.querySelector(".main_bar").style.zIndex = "1";
+const nav_bar = document.querySelector('.toggle')
 
-}
+const nav_menu = document.querySelector('.nav_menu')
 
-function hidebar(){
-   const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = 'none'
-   document.getElementById(".main_bar").style.zIndex = "1000";
-}
+nav_bar.addEventListener('click',()=>{
+  nav_bar.classList.toggle('active')
+  nav_menu.classList.toggle('active')
+})
