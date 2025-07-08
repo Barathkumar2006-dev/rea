@@ -156,7 +156,7 @@ ul li a {
         top:0;
         right:0;
         padding:5rem 1.5rem;
-        box-shadow:0 10px 10px rgba(0,0,0,0.5);
+        box-shadow:0 10px 10px rgba(214, 207, 207, 0.5);
         backdrop-filter:blur(10px);
         
     }
