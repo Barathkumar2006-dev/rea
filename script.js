@@ -71,22 +71,42 @@ function doNextRotation() {
 }
 
 ScrollTrigger.create({
-  trigger: "#img3",
-  start: "bottom bottom",
-  toggleActions: "play none none none",
-  pinSpacing: true,
+  trigger: "#carouselSection",
+  start: "top 27%",
+  end: "+=2000",
+  pin: true,
+  toggleActions: "play none none reverse",
+  pinSpacing: true, // add space below when pinning
   scrub: false,
-  once : true,
+  once: false,
+
   onEnter: () => {
     document.body.classList.add("noscroll");
+    currentStage = 0;
+    rotationsDone = 0;
     rotateTo(0);
     doNextRotation();
   },
-  
+
   onLeave: () => {
+    document.body.classList.remove("noscroll");
+  },
+
+  onEnterBack: () => {
+    document.body.classList.add("noscroll");
+    currentStage = 0;
+    rotationsDone = 0;
+    rotateTo(0);
+    doNextRotation();
+  },
+
+  onLeaveBack: () => {
     document.body.classList.remove("noscroll");
   }
 });
+
+
+
 
 const toggle = document.querySelector('.toggle')
 

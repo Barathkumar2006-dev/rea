@@ -20,6 +20,8 @@ html {
 
 body {
     min-height: 470vh;
+    background-color: #fff;
+
 }
 
 body.noscroll {
@@ -1033,11 +1035,12 @@ ul li a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20%;
-    position: relative;
-    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 90vh;
+    position: relative;
+    background-color: #fff;
 }
 
 .carousel-img {
