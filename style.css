@@ -60,7 +60,7 @@ ul li a {
 
 
 .nav_menu li a{
-    color:white;
+    color:rgb(27, 25, 25);
     font-family:'poppins';
     font-weight:400;
     text-transform:capitalize;
@@ -162,6 +162,14 @@ ul li a {
         backdrop-filter:blur(10px);
         
     }
+
+    .nav_menu li a{
+    color:rgb(0, 0, 0);
+    font-family:'poppins';
+    font-weight:400;
+    text-transform:capitalize;
+}
+
 
     .nav_container .nav_menu.active{
         display:flex;
