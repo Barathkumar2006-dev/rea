@@ -99,7 +99,7 @@ ul li a {
     position:fixed;
     top:0;
     background:transparent;
-    box-shadow:0 10px 20px rgba(0,0,0,0.5);
+    box-shadow:0 10px 20px rgba(240, 233, 233, 0.5);
     backdrop-filter:blur(10px);
     z-index:999;
 }
@@ -109,7 +109,7 @@ ul li a {
     align-items:center;
     justify-content:space-between;
     width:100%;
-    padding:0 2rem;
+    padding:0 1rem;
     max-width:1600px;
 }
 
