@@ -89,14 +89,6 @@ ScrollTrigger.create({
     document.body.classList.remove("noscroll");
   },
 
-  onEnterBack: () => {
-    document.body.classList.add("noscroll");
-    currentStage = 0;
-    rotationsDone = 0;
-    rotateTo(0);
-    doNextRotation();
-  },
-
   onLeaveBack: () => {
     document.body.classList.remove("noscroll");
   }
