@@ -1,12 +1,16 @@
-const nav_bar = document.querySelector('.toggle')
+// nav bar scripting 
 
-const nav_menu = document.querySelector('.nav_menu')
 
-function hidebar(){
-   const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = 'none'
-   document.getElementById(".main_bar").style.zIndex = "1000";
-}
+const toggle = document.querySelector('.toggle')
+
+const menu_bar = document.querySelector('.nav_menu')
+
+toggle.addEventListener('click',()=>{
+  toggle.classList.toggle('active')
+  menu_bar.classList.toggle('active')
+})
+
+//sroll animation 
 
 gsap.registerPlugin(ScrollTrigger);
 
