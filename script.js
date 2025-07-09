@@ -1,5 +1,11 @@
-// nav bar scripting 
+//scroll issue solving 
 
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+
+
+// nav bar scripting 
 
 const toggle = document.querySelector('.toggle')
 
