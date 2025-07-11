@@ -144,10 +144,7 @@ ul li a {
 
 @media screen and (max-width:940px)
 {
-    .nav_bar{
-        backdrop-filter:none;
-        background:none;
-    }
+   
 
     .nav_container .nav_menu{
         flex-direction:column;
