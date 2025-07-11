@@ -15,3 +15,12 @@ toggle.addEventListener('click',()=>{
   toggle.classList.toggle('active')
   menu_bar.classList.toggle('active')
 })
+
+
+// Close menu when any nav link is clicked
+document.querySelectorAll('.nav_menu li a').forEach(link => {
+  link.addEventListener('click', () => {
+    toggle.classList.remove('active');
+    menu_bar.classList.remove('active');
+  });
+});
