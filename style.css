@@ -98,11 +98,10 @@ ul li a {
     width:100%;
     position:fixed;
     top:0;
-    background: rgba(255, 255, 255, 0.323); /* semi-transparent */
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.129); /* semi-transparent */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.21);
     backdrop-filter: blur(10px); /* frosted glass effect */
     -webkit-backdrop-filter: blur(10px); /* Safari support */
-    border: 1px solid rgba(255, 255, 255, 0.3);
     z-index:999;
 }
 
@@ -157,11 +156,10 @@ ul li a {
         top:0;
         right:0;
         padding:5rem 1.5rem;
-        background: rgba(255, 255, 255, 0.323); /* semi-transparent */
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        background: rgba(255, 255, 255, 0.129); /* semi-transparent */
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.21);
         backdrop-filter: blur(10px); /* frosted glass effect */
         -webkit-backdrop-filter: blur(10px); /* Safari support */
-        border: 1px solid rgba(255, 255, 255, 0.3);
         
     }
 
