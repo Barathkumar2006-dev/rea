@@ -129,6 +129,10 @@ ul li a {
 }
 
 .bar{
+    cursor:pointer;
+}
+
+.bar{
     display:block;
     width:25px;
     height:1.4px;
