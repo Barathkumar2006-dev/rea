@@ -98,9 +98,8 @@ ul li a {
     width:100%;
     position:fixed;
     top:0;
-    background: rgba(255, 255, 255, 0.2); /* semi-transparent */
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255); /* semi-transparent */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
     backdrop-filter: blur(10px); /* frosted glass effect */
     -webkit-backdrop-filter: blur(10px); /* Safari support */
     z-index:999;
@@ -162,7 +161,6 @@ ul li a {
         padding:5rem 1.5rem;
         background:transparent;
         background: rgb(255, 255, 255); /* semi-transparent */
-        border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
         backdrop-filter: blur(10px); /* frosted glass effect */
         -webkit-backdrop-filter: blur(10px); /* Safari support */
