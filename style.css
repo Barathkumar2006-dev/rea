@@ -162,11 +162,10 @@ ul li a {
         top:0;
         right:0;
         padding:5rem 1.5rem;
-        background: rgba(255, 255, 255, 0.458); /* semi-transparent */
+        background: rgba(255, 255, 255, 0.918); /* semi-transparent */
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.21);
         backdrop-filter: blur(10px); /* frosted glass effect */
         -webkit-backdrop-filter: blur(10px); /* Safari support */
-        z-index:999;
     }
 
     .nav_menu li a{
