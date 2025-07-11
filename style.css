@@ -167,7 +167,6 @@ ul li a {
         backdrop-filter: blur(10px); /* frosted glass effect */
         -webkit-backdrop-filter: blur(10px); /* Safari support */
         z-index:999;
-        
     }
 
     .nav_menu li a{
@@ -177,12 +176,12 @@ ul li a {
     text-transform:capitalize;
 }
 
-
-    
-
     .toggle{
         display:block;
         z-index:999;
+    }
+    .nav_bar.active{
+        display:flex;
     }
 }
 
