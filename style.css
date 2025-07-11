@@ -84,7 +84,6 @@ ul li a {
     transform:translateY(-8px) rotate(-45deg);
 }
 
-/*  */
 
 .logo_image {
     width:180px;
@@ -146,7 +145,7 @@ ul li a {
 @media screen and (max-width:940px)
 {
   
-    .nav_bar.active {
+    .nav_container .nav_menu.active {
         display: flex;
     }
     
