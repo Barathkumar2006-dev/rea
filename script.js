@@ -6,7 +6,6 @@ if ('scrollRestoration' in history) {
 
 
 // nav bar scripting 
-
 const toggle = document.querySelector('.toggle')
 
 const menu_bar = document.querySelector('.nav_menu')
@@ -14,13 +13,9 @@ const menu_bar = document.querySelector('.nav_menu')
 toggle.addEventListener('click',()=>{
   toggle.classList.toggle('active')
   menu_bar.classList.toggle('active')
-
 })
 
-document.addEventListener('click', (e) => {
-  if (!menu_bar.contains(e.target) && !toggle.contains(e.target)) {
-    toggle.classList.remove('active');
-    menu_bar.classList.remove('active');
-  }
-});
-
+nav_bar.addEventListener('click',()=>{
+  nav_bar.classList.toggle('active')
+  nav_menu.classList.toggle('active')
+})
