@@ -146,7 +146,11 @@ ul li a {
 
 @media screen and (max-width:940px)
 {
-
+  
+    .nav_bar.active {
+        display: flex;
+    }
+    
 
     .nav_container .nav_menu{
         flex-direction:column;
@@ -174,9 +178,7 @@ ul li a {
 }
 
 
-    .nav_container .nav_menu.active{
-        display:flex;
-    }
+    
 
     .toggle{
         display:block;
