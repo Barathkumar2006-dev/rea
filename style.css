@@ -163,8 +163,7 @@ ul li a {
         background: rgb(255, 255, 255); /* semi-transparent */
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
         backdrop-filter: blur(10px); /* frosted glass effect */
-        -webkit-backdrop-filter: blur(10px); /* Safari support */
-    
+        -webkit-backdrop-filter: blur(10px);
         
     }
 
