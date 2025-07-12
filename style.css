@@ -148,10 +148,6 @@ ul li a {
 @media screen and (max-width:940px)
 {
 
-    .nav_menu a {
-        position: relative;
-        z-index: 1;
-      }
   
     .nav_container .nav_menu.active {
         display: flex;
@@ -162,7 +158,7 @@ ul li a {
         flex-direction:column;
         align-items:flex-start;
         gap:1.7rem;
-        position:fixed;
+        position:absolute;
         display:none;
         height:100vh;
         top:0;
