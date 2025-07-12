@@ -159,7 +159,7 @@ ul li a {
         flex-direction:column;
         align-items:flex-start;
         gap:1.7rem;
-        position:absolute;
+        position:sticky;
         display:none;
         height:100vh;
         top:0;
@@ -169,7 +169,8 @@ ul li a {
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.21);
         backdrop-filter: blur(10px); /* frosted glass effect */
         -webkit-backdrop-filter: blur(10px); /* Safari support */
-        z-index:999;
+        z-index:9999;
+        overflow: hidden;
     }
 
     .nav_menu li a{
@@ -511,7 +512,7 @@ ul li a {
         padding: 3.5% 10px;
         background-color: rgb(255, 255, 255);
         transform: translateY(-95px);
-        z-index:-999;
+        z-index:auto;
     }
     .main_text {
         display: flex;
@@ -519,7 +520,7 @@ ul li a {
         align-items: center;
         transform: translateY(0px);
         justify-content: center;
-        z-index:-999;
+        z-index:auto;
     }
 
 }
