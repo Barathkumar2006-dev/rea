@@ -218,6 +218,7 @@ ul li a {
     padding: 3.5% 0;
     background-color: rgb(255, 255, 255);
     transform: translateY(20px);
+    z-index:-1;
 }
 
 .div_text h1 {
@@ -510,7 +511,7 @@ ul li a {
         padding: 3.5% 10px;
         background-color: rgb(255, 255, 255);
         transform: translateY(-95px);
-        z-index:-1;
+        z-index:-999;
     }
 
 }
