@@ -56,8 +56,11 @@ ul li a {
     object-fit: cover;
     background-size: cover;
 }
+
 /* nav bar styling start here */
 
+
+  
 
 .nav_menu li a{
     color:rgb(27, 25, 25);
@@ -144,6 +147,11 @@ ul li a {
 
 @media screen and (max-width:940px)
 {
+
+    .nav_menu a {
+        position: relative;
+        z-index: 1;
+      }
   
     .nav_container .nav_menu.active {
         display: flex;
@@ -386,7 +394,6 @@ ul li a {
         max-width: 230px;
         border-radius: 7px;
     }
-
 
 }
 
