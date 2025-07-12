@@ -182,7 +182,7 @@ ul li a {
 
     .toggle{
         display:block;
-        z-index:9999;
+        z-index:999;
     }
     .nav_bar.active{
         display:flex;
