@@ -580,7 +580,7 @@ ul li a {
 
 @media only screen and (max-height: 480px) and (orientation: landscape) {
     .service_title h3 {
-        margin-top:85%;
+        margin-top:25%;
     }
 }
 
@@ -607,6 +607,7 @@ ul li a {
     }
 
 }
+
 
 
 
