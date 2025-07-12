@@ -493,6 +493,26 @@ ul li a {
     }
 
 }
+@media screen and (max-width:450px)
+{
+    
+    .div_content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        background: black;
+        min-height: 250px;
+        width: 73%;
+        text-align: center;
+        gap: 0.5rem;
+        padding: 3.5% 10px;
+        background-color: rgb(255, 255, 255);
+        transform: translateY(-95px);
+        z-index:-1;
+    }
+
+}
 
 /* styling of the service div section */
 
