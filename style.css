@@ -177,6 +177,7 @@ ul li a {
 
     .nav_menu li a{
     color:rgb(0, 0, 0);
+    cursor:pointer;
     font-family:'poppins';
     font-weight:400;
     text-transform:capitalize;
