@@ -15,7 +15,7 @@ toggle.addEventListener('click',()=>{
   menu_bar.classList.toggle('active')
 })
 
-nav_bar.addEventListener('click',()=>{
-  nav_bar.classList.toggle('active')
-  nav_menu.classList.toggle('active')
+menu_bar.addEventListener('click',()=>{
+  menu_bar.classList.toggle('active')
+  menu_bar.classList.toggle('active')
 })
