@@ -510,7 +510,6 @@ ul li a {
         padding: 3.5% 10px;
         background-color: rgb(255, 255, 255);
         transform: translateY(-95px);
-        z-index:auto;
     }
     .main_text {
         display: flex;
@@ -518,7 +517,6 @@ ul li a {
         align-items: center;
         transform: translateY(0px);
         justify-content: center;
-        z-index:auto;
     }
 
 }
