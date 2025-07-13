@@ -169,7 +169,6 @@ ul li a {
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.21);
         backdrop-filter: blur(10px); /* frosted glass effect */
         -webkit-backdrop-filter: blur(10px); /* Safari support */
-        z-index:1;
     }
 
     .nav_menu li a{
