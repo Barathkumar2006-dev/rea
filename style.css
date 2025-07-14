@@ -144,7 +144,7 @@ ul li a {
     
     .nav_bar{
         background:transparent;
-        backdrop-filter:none;
+        backdrop-filter:blur(20px);
     }
 
     .nav_container .nav_menu{
