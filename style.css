@@ -1082,3 +1082,50 @@ ul li a {
         margin-top: 30%;
     }
 }
+
+/* footer section */
+
+.footer_section{
+    height:450px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 80px;
+    background:#e5ebf2;
+}
+
+.footer_section h2,li{
+    line-height:35px;
+}
+
+.social_media img{
+    padding:0 10px;
+}
+
+.support li{
+    font-family:'poppins';
+    font-weight:400;
+}
+.categories h2{
+    font-family:'poppins';
+    font-weight:400;
+    font-size:1.2rem;
+    text-transform:lowercase;
+}
+.about_us,.categories,.support h1{
+    font-weight:800;
+    font-family:'poppins';
+}
+.support{
+    transform:translateY(-20px);
+}
+
+.about_us li{
+    font-family:'poppins';
+    font-weight:400;
+    font-size:1.1rem;
+}
+
+/* repsonsive section for the style.css */
+
