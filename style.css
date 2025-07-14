@@ -97,7 +97,6 @@ ul li a {
     top:0;
     background:transparent;
     backdrop-filter: blur(10px);
-    z-index:999;
 }
 
 .nav_container {
@@ -154,12 +153,12 @@ ul li a {
         display:none;
         height:100vh;
         top:0;
-        background:rgba(255, 255, 255, 0.574);
         right:0;
+        background:rgba(255, 255, 255, 0.301);
         padding:5rem 1.5rem;
         box-shadow:0 10px 10px rgba(214, 207, 207, 0.5);
-        backdrop-filter:blur(5px);
-        
+        backdrop-filter:blur(10px);
+        z-index:999; 
     }
 
     .nav_menu li a{
