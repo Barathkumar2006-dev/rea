@@ -58,7 +58,7 @@ ul li a {
 
 
 .nav_menu li a{
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     font-family:'poppins';
     font-weight:400;
     text-transform:capitalize;
@@ -163,7 +163,7 @@ ul li a {
     }
 
     .nav_menu li a{
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     font-family:'poppins';
     font-weight:400;
     text-transform:capitalize;
