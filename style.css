@@ -141,11 +141,11 @@ ul li a {
 
 @media screen and (max-width:940px)
 {
+    
     .nav_bar{
-        background-color:transparent;
+        background:transparent;
         backdrop-filter:none;
     }
-  
 
     .nav_container .nav_menu{
         flex-direction:column;
@@ -1092,7 +1092,7 @@ ul li a {
     align-items:center;
     justify-content:space-between;
     padding:0 80px;
-    background:#e5ebf2;
+    background:#fff;
 }
 
 .footer_section h2,li{
@@ -1142,7 +1142,7 @@ ul li a {
         flex-direction:column;
         justify-content:space-between;
         padding:30px 80px;
-        background:#e5ebf2;
+        background:#fff;
     }
     
 }
