@@ -179,6 +179,15 @@ ul li a {
         z-index:999;
         color:white;
     }
+    
+.bar{
+    display:block;
+    width:25px;
+    height:1.4px;
+    margin:5px auto;
+    background:#ffffff;
+    transition:all 0.3s ease-in-out;
+}
 }
 
     .transform {
