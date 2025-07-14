@@ -1128,3 +1128,21 @@ ul li a {
 }
 
 /* repsonsive section for the style.css */
+
+
+@media screen and (max-width:1284px)
+{
+    .footer_section{
+        height:600px;
+        width:100%;
+        display:flex;
+        align-items:center;
+        text-align:center;
+        flex-direction:column;
+        justify-content:space-between;
+        padding:0 80px;
+        background:#e5ebf2;
+    }
+    
+}
+
