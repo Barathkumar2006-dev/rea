@@ -155,6 +155,7 @@ ul li a {
         display:none;
         height:100vh;
         top:0;
+        background:transparent;
         right:0;
         padding:5rem 1.5rem;
         box-shadow:0 10px 10px rgba(214, 207, 207, 0.5);
