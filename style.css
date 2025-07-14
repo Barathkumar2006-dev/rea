@@ -142,9 +142,10 @@ ul li a {
 
 @media screen and (max-width:940px)
 {
+    
     .nav_bar{
-        backdrop-filter:none;
-        background:none;
+        box-shadow:0 10px 20px rgba(0,0,0,0.5);
+        backdrop-filter:blur(10px);
     }
 
     .nav_container .nav_menu{
