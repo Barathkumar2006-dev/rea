@@ -97,7 +97,7 @@ ul li a {
     position:fixed;
     top:0;
     background:transparent;
-    backdrop-filter: blur(20px) saturate(0%);
+    backdrop-filter: blur(10px);
     z-index:999;
 }
 
