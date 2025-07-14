@@ -58,7 +58,7 @@ ul li a {
 
 
 .nav_menu li a{
-    color:rgb(27, 25, 25);
+    color:rgb(255, 255, 255);
     font-family:'poppins';
     font-weight:400;
     text-transform:capitalize;
@@ -124,6 +124,7 @@ ul li a {
     background:transparent;
     padding:10px;
     border:none;
+    color:white;
     cursor:pointer;
 }
 
@@ -162,7 +163,7 @@ ul li a {
     }
 
     .nav_menu li a{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     font-family:'poppins';
     font-weight:400;
     text-transform:capitalize;
@@ -176,6 +177,7 @@ ul li a {
     .toggle{
         display:block;
         z-index:999;
+        color:white;
     }
 }
 
