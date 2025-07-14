@@ -142,10 +142,9 @@ ul li a {
 
 @media screen and (max-width:940px)
 {
-    
     .nav_bar{
-        box-shadow:0 10px 20px rgba(0,0,0,0.5);
-        backdrop-filter:blur(10px);
+        backdrop-filter:none;
+        background:none;
     }
 
     .nav_container .nav_menu{
@@ -1134,7 +1133,7 @@ ul li a {
 @media screen and (max-width:1284px)
 {
     .footer_section{
-        height:600px;
+        height:650px;
         width:100%;
         display:flex;
         align-items:center;
