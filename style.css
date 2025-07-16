@@ -58,7 +58,7 @@ ul li a {
 
 
 .nav_menu li a{
-    color:rgb(0, 0, 0);
+    color:white;
     font-family:'poppins';
     font-weight:400;
     text-transform:capitalize;
@@ -94,9 +94,12 @@ ul li a {
     justify-content:center;
     height:80px;
     width:100%;
+    position:fixed;
     top:0;
     background:transparent;
-    backdrop-filter: blur(10px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.5);
+    backdrop-filter:blur(10px);
+    z-index:999;
 }
 
 .nav_container {
@@ -121,7 +124,6 @@ ul li a {
     background:transparent;
     padding:10px;
     border:none;
-    color:white;
     cursor:pointer;
 }
 
@@ -139,34 +141,25 @@ ul li a {
 
 @media screen and (max-width:940px)
 {
-    
     .nav_bar{
-        background:transparent;
-        backdrop-filter:blur(10px);
+        backdrop-filter:none;
+        background:none;
     }
 
     .nav_container .nav_menu{
         flex-direction:column;
         align-items:flex-start;
         gap:1.7rem;
-        position:fixed;
+        position:absolute;
         display:none;
         height:100vh;
         top:0;
         right:0;
-        background:rgba(255, 255, 255, 0.301);
         padding:5rem 1.5rem;
-        box-shadow:0 10px 10px rgba(214, 207, 207, 0.5);
-        backdrop-filter:blur(10px); 
+        box-shadow:0 10px 10px rgba(0,0,0,0.5);
+        backdrop-filter:blur(10px);
+        
     }
-
-    .nav_menu li a{
-    color:rgb(0, 0, 0);
-    font-family:'poppins';
-    font-weight:400;
-    text-transform:capitalize;
-}
-
 
     .nav_container .nav_menu.active{
         display:flex;
@@ -175,17 +168,7 @@ ul li a {
     .toggle{
         display:block;
         z-index:999;
-        color:rgb(0, 0, 0);
     }
-    
-.bar{
-    display:block;
-    width:25px;
-    height:1.4px;
-    margin:5px auto;
-    background:#ffffff;
-    transition:all 0.3s ease-in-out;
-}
 }
 
     .transform {
@@ -193,7 +176,6 @@ ul li a {
         cursor: pointer;
         z-index: -1;
     }
-
 
 
 /* main content styling main text */
