@@ -143,7 +143,6 @@ ul li a {
 {
     .nav_bar{
         backdrop-filter:blur(10px);
-        background:none;
     }
 
     .nav_container .nav_menu{
