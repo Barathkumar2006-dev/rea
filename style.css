@@ -183,7 +183,7 @@ ul li a {
     width:25px;
     height:1.4px;
     margin:5px auto;
-    background:#000000;
+    background:#ffffff;
     transition:all 0.3s ease-in-out;
 }
 }
@@ -504,9 +504,22 @@ ul li a {
     justify-content: space-around;
 }
 
+.solution{
+    transform:translateY(-100px);
+}
+
+.solution h3{
+    font-size:3rem;
+    font-weight:800;
+}
+
+.solution_div{
+    transform:translateY(-100px);
+}
+
 .Service_div h3 {
     font-family: 'poppins';
-    font-weight: 500;
+    font-weight:800;
     color: rgba(0, 0, 0, 0.699);
     line-height: 25px;
     font-size: 0.79rem;
@@ -533,7 +546,7 @@ ul li a {
     margin-left: 6%;
     font-family: 'poppins';
     font-weight: 400;
-    font-size: 3.7rem;
+    font-size:3rem;
     text-transform: capitalize;
 }
 
@@ -557,13 +570,8 @@ ul li a {
         text-align: center;
         align-items: center;
         flex-direction: column;
-        justify-content: space-evenly;
     }
 
-    #service h3{
-        text-align: center;
-        margin-left: 0;
-    }
 
 }
 
@@ -730,7 +738,7 @@ ul li a {
     text-transform: capitalize;
     margin-left: 6%;
     margin-bottom: 20px;
-    font-size: 3.7rem;
+    font-size:3rem;
 }
 
 .swiper-container {
@@ -773,7 +781,7 @@ ul li a {
     font-size: 3rem;
     margin-top: 10%;
     text-transform: capitalize;
-    margin-left: 3%;
+    margin-left:7%;
 }
 
 .testi_wrapper .client {
