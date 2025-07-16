@@ -58,7 +58,7 @@ ul li a {
 
 
 .nav_menu li a{
-    color:white;
+    color:rgb(0, 0, 0);
     font-family:'poppins';
     font-weight:400;
     text-transform:capitalize;
@@ -142,7 +142,7 @@ ul li a {
 @media screen and (max-width:940px)
 {
     .nav_bar{
-        backdrop-filter:none;
+        backdrop-filter:blur(10px);
         background:none;
     }
 
@@ -156,8 +156,9 @@ ul li a {
         top:0;
         right:0;
         padding:5rem 1.5rem;
+        background:rgba(255, 255, 255, 0.426);
         box-shadow:0 10px 10px rgba(0,0,0,0.5);
-        backdrop-filter:blur(10px);
+        backdrop-filter:blur(40px);
         
     }
 
