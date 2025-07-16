@@ -157,8 +157,7 @@ ul li a {
         background:rgba(255, 255, 255, 0.301);
         padding:5rem 1.5rem;
         box-shadow:0 10px 10px rgba(214, 207, 207, 0.5);
-        backdrop-filter:blur(10px);
-        z-index:999; 
+        backdrop-filter:blur(10px); 
     }
 
     .nav_menu li a{
@@ -184,7 +183,7 @@ ul li a {
     width:25px;
     height:1.4px;
     margin:5px auto;
-    background:#ffffff;
+    background:#000000;
     transition:all 0.3s ease-in-out;
 }
 }
