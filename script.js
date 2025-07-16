@@ -16,25 +16,24 @@ menubar.addEventListener('click',()=>{
 if ('scrollRestoration' in history) {
   history.scrollRestoration = 'manual';
 }
+
 document.addEventListener('DOMContentLoaded', function () {
   const toggleButton = document.querySelector('.toggle');
   const navMenu = document.querySelector('.nav_menu');
-  const mainTextSection = document.querySelector('.main_text');
+  const heroSection = document.querySelector('.main_text');
+  const serviceSection = document.querySelector('#service');
 
-  // Toggle menu on hamburger click
   toggleButton.addEventListener('click', function () {
-    navMenu.classList.toggle('active'); // assume 'active' class shows the sidebar
+    navMenu.classList.toggle('active');
   });
 
-  // Auto-close when scrolling past the hero section
-  const observer = new IntersectionObserver(function (entries) {
-    entries.forEach(entry => {
-      if (!entry.isIntersecting && navMenu.classList.contains('active')) {
-        navMenu.classList.remove('active');
-      }
-    });
-  }, { threshold: 0.1 });
+  window.addEventListener('scroll', function () {
+    const heroBottom = heroSection.getBoundingClientRect().bottom;
+    const serviceTop = serviceSection.getBoundingClientRect().top;
 
-  observer.observe(mainTextSection);
+    if (heroBottom < 0 && navMenu.classList.contains('active')) {
+      navMenu.classList.remove('active');
+      console.log('Sidebar auto-closed after scroll');
+    }
+  });
 });
-
