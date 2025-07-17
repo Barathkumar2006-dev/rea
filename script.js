@@ -17,23 +17,20 @@ if ('scrollRestoration' in history) {
   history.scrollRestoration = 'manual';
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-  const toggleButton = document.querySelector('.toggle');
-  const navMenu = document.querySelector('.nav_menu');
-  const heroSection = document.querySelector('.main_text');
-  const serviceSection = document.querySelector('#service');
+const menubar = document.querySelector('.menubar') // Make sure this exists in your HTML
 
-  toggleButton.addEventListener('click', function () {
-    navMenu.classList.toggle('active');
-  });
+function toggleMenu() {
+  nav_bar.classList.toggle('active')
+  nav_menu.classList.toggle('active')
+}
 
-  window.addEventListener('scroll', function () {
-    const heroBottom = heroSection.getBoundingClientRect().bottom;
-    const serviceTop = serviceSection.getBoundingClientRect().top;
+function closeMenu() {
+  nav_bar.classList.remove('active')
+  nav_menu.classList.remove('active')
+}
 
-    if (heroBottom < 0 && navMenu.classList.contains('active')) {
-      navMenu.classList.remove('active');
-      console.log('Sidebar auto-closed after scroll');
-    }
-  });
-});
+nav_bar.addEventListener('click', toggleMenu)
+menubar?.addEventListener('click', toggleMenu) // Optional chaining to avoid error if null
+
+// Close on scroll
+window.addEventListener('scroll', closeMenu)
