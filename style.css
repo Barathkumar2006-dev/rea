@@ -525,6 +525,7 @@ ul li a {
 
 .service_title h3 {
     margin-top: 15%;
+    scroll-margin-top: 100px; /* Adjust based on your navbar height */
     margin-left: 6%;
     font-family: 'poppins';
     font-weight: 400;
