@@ -481,7 +481,7 @@ ul li a {
 
 .service {
     display: flex;
-    margin: 7% 0;
+    margin:2% 0;
     align-items: center;
     justify-content: space-around;
 }
@@ -557,7 +557,7 @@ ul li a {
 @media screen and (max-width:1102px) and (orientation:portrait) {
     .service {
         display: flex;
-        margin: 7% 3%;
+        margin:2% 3%;
         text-align: center;
         align-items: center;
         flex-direction: column;
@@ -569,7 +569,7 @@ ul li a {
 @media screen and (max-width:1102px) and (orientation:landscape) {
     .service {
         display: flex;
-        margin: 7% 3%;
+        margin: 2% 3%;
         text-align: center;
         gap: 2rem;
         align-items: center;
@@ -593,7 +593,7 @@ ul li a {
 @media screen and (max-width:853px) {
     .service {
         display: flex;
-        margin: 7% 3%;
+        margin: 2% 3%;
         align-items: center;
         flex-direction: column;
         justify-content: space-evenly;
